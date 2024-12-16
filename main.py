@@ -39,4 +39,15 @@ def print_report(path, word_count, char_dict):
     print("--- End report ---")
 
 
+def sort_dict(dictionary):
+    pass
+
+
+def dict_to_list(dictionary):
+    dict_list = []
+    for key in dictionary:
+        dict_list.append({"name" : key, "num" : dictionary[key]})
+    return dict_list
+
+
 main()
